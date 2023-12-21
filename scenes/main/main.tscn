@@ -17,5 +17,8 @@ position = Vector2(68, 55)
 
 [node name="GameCamera" parent="." instance=ExtResource("3_ndar3")]
 
-[node name="BasicEnemy" parent="." instance=ExtResource("4_hr6hf")]
+[node name="BasicEnemy" parent="." groups=["enemy"] instance=ExtResource("4_hr6hf")]
 position = Vector2(267, 151)
+
+[node name="BasicEnemy2" parent="." groups=["enemy"] instance=ExtResource("4_hr6hf")]
+position = Vector2(195, 526)
