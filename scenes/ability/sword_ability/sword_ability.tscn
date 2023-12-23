@@ -1,4 +1,4 @@
-[gd_scene load_steps=5 format=3 uid="uid://cdiwlqtplaj3b"]
+[gd_scene load_steps=6 format=3 uid="uid://cdiwlqtplaj3b"]
 
 [ext_resource type="Texture2D" uid="uid://dvj3qqlwet7hy" path="res://scenes/ability/sword_ability/sword.png" id="1_tmtty"]
 
@@ -71,12 +71,27 @@ tracks/2/keys = {
 "method": &"queue_free"
 }]
 }
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("Area2D/CollisionShape2D:disabled")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0.15, 0.4),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [false, true]
+}
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_hs8hn"]
 _data = {
 "RESET": SubResource("Animation_oedlt"),
 "swing": SubResource("Animation_aduiu")
 }
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_skw2c"]
+size = Vector2(20, 30)
 
 [node name="SwordAbility" type="Node2D"]
 
@@ -89,3 +104,12 @@ libraries = {
 [node name="Sprite2D" type="Sprite2D" parent="."]
 texture = ExtResource("1_tmtty")
 offset = Vector2(0, -4)
+
+[node name="Area2D" type="Area2D" parent="."]
+collision_layer = 4
+collision_mask = 0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(-8.25, -1)
+shape = SubResource("RectangleShape2D_skw2c")
+disabled = true

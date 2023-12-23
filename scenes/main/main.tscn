@@ -22,3 +22,63 @@ position = Vector2(267, 151)
 
 [node name="BasicEnemy2" parent="." groups=["enemy"] instance=ExtResource("4_hr6hf")]
 position = Vector2(195, 526)
+
+[node name="BasicEnemy3" parent="." groups=["enemy"] instance=ExtResource("4_hr6hf")]
+position = Vector2(316, 494)
+
+[node name="BasicEnemy4" parent="." groups=["enemy"] instance=ExtResource("4_hr6hf")]
+position = Vector2(437, 448)
+
+[node name="BasicEnemy5" parent="." groups=["enemy"] instance=ExtResource("4_hr6hf")]
+position = Vector2(316, 310)
+
+[node name="BasicEnemy6" parent="." groups=["enemy"] instance=ExtResource("4_hr6hf")]
+position = Vector2(214, 380)
+
+[node name="BasicEnemy7" parent="." groups=["enemy"] instance=ExtResource("4_hr6hf")]
+position = Vector2(152, 469)
+
+[node name="BasicEnemy8" parent="." groups=["enemy"] instance=ExtResource("4_hr6hf")]
+position = Vector2(119, 549)
+
+[node name="BasicEnemy9" parent="." groups=["enemy"] instance=ExtResource("4_hr6hf")]
+position = Vector2(85, 449)
+
+[node name="BasicEnemy10" parent="." groups=["enemy"] instance=ExtResource("4_hr6hf")]
+position = Vector2(121, 347)
+
+[node name="BasicEnemy11" parent="." groups=["enemy"] instance=ExtResource("4_hr6hf")]
+position = Vector2(372, 75)
+
+[node name="BasicEnemy12" parent="." groups=["enemy"] instance=ExtResource("4_hr6hf")]
+position = Vector2(348, 169)
+
+[node name="BasicEnemy13" parent="." groups=["enemy"] instance=ExtResource("4_hr6hf")]
+position = Vector2(491, 145)
+
+[node name="BasicEnemy14" parent="." groups=["enemy"] instance=ExtResource("4_hr6hf")]
+position = Vector2(208, 238)
+
+[node name="BasicEnemy15" parent="." groups=["enemy"] instance=ExtResource("4_hr6hf")]
+position = Vector2(75, 215)
+
+[node name="BasicEnemy16" parent="." groups=["enemy"] instance=ExtResource("4_hr6hf")]
+position = Vector2(211, 73)
+
+[node name="BasicEnemy17" parent="." groups=["enemy"] instance=ExtResource("4_hr6hf")]
+position = Vector2(153, 213)
+
+[node name="BasicEnemy18" parent="." groups=["enemy"] instance=ExtResource("4_hr6hf")]
+position = Vector2(413, 296)
+
+[node name="BasicEnemy19" parent="." groups=["enemy"] instance=ExtResource("4_hr6hf")]
+position = Vector2(543, 222)
+
+[node name="BasicEnemy20" parent="." groups=["enemy"] instance=ExtResource("4_hr6hf")]
+position = Vector2(474, 339)
+
+[node name="BasicEnemy21" parent="." groups=["enemy"] instance=ExtResource("4_hr6hf")]
+position = Vector2(322, 400)
+
+[node name="BasicEnemy22" parent="." groups=["enemy"] instance=ExtResource("4_hr6hf")]
+position = Vector2(322, 400)
