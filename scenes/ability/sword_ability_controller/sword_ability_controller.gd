@@ -6,11 +6,11 @@ const MAX_RANGE = 150
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	$Timer.timeout.connect(on_timer_timeout)
+	$SwordAbilityTimer.timeout.connect(on_timer_timeout)
 
 func on_timer_timeout():
 	var enemies = get_tree().get_nodes_in_group("enemy")
-	var player = get_tree().get_nodes_in_group("player")[0]
+	var player = get_tree().get_first_node_in_group("player")
 	enemies.filter(func(enemy: Node2D): 
 		return enemy.global_position.distance_squared_to(player.global_position) < pow(MAX_RANGE, 2)
 	)
